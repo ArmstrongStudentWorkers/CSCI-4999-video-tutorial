@@ -1,0 +1,118 @@
+/*---------------------------------------------------------------------------------
+   Common Styles
+---------------------------------------------------------------------------------*/
+
+body{
+    width: 100%;
+    background: #e6e6e6;
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
+
+h1{
+    color: #262626;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0px 0px 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #21a1ad;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+h3{
+    color: #fc9b0e;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+h4{
+    color: #79b9d7;
+    font-size: .8em;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+p{
+    margin: 0px 10px 10px;
+    line-height: 1.3em;
+}
+
+a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+a:hover{
+    color: #21a1ad;
+}
+
+li{
+    padding: 5px;
+    list-style-type: square;
+}
+
+ul{
+    margin: 15px 30px;
+}
+
+/*---------------------------------------------------------------------------------
+   Content Area Styles
+---------------------------------------------------------------------------------*/
+
+.header{
+    margin: auto;
+    text-align: center;
+    min-width: 500px;
+    border-bottom: 1px solid #b2b2b2;
+    -webkit-box-shadow: 0px 1px 0px 0px white;
+    -moz-box-shadow:    0px 1px 0px 0px white;
+    box-shadow:         0px 1px 0px 0px white;
+}
+
+.content{
+    padding: 15px;
+}
+
+.mini_nav_left{
+    position: absolute;
+    left: 15px;
+    color: #fc9b0e;
+}
+
+.mini_nav_right{
+    position: absolute;
+    right: 15px;
+    color: #fc9b0e;
+}
+
+
+.underline{
+    border-bottom: 1px solid #b2b2b2;
+    -webkit-box-shadow: 0px 1px 0px 0px white;
+    -moz-box-shadow:    0px 1px 0px 0px white;
+    box-shadow:         0px 1px 0px 0px white;
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 10px;
+    
+}
+
+/*---------------------------------------------------------------------------------
+   Video Styles
+---------------------------------------------------------------------------------*/
+iframe{
+    display: block;
+    margin: 0 auto 10px;
+    border: 3px solid #262626;
+    -webkit-box-shadow: 2px 2px 3px 0px #666;
+    -moz-box-shadow:    2px 2px 3px 0px #666;
+    box-shadow:         2px 2px 3px 0px #666;
+}
+
